@@ -1,0 +1,47 @@
+[
+  {
+    "description": "  I want to open a facebook page",
+    "keyword": "Feature",
+    "name": "The Facebook",
+    "line": 1,
+    "id": "the-facebook",
+    "tags": [],
+    "uri": "Facebok.feature",
+    "elements": [
+      {
+        "id": "the-facebook;opening-a-facebook-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Opening a facebook page",
+        "tags": [
+          {
+            "name": "@beta",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Facebook page",
+            "result": {
+              "status": "undefined",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I see \"Facebook\" in the title",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

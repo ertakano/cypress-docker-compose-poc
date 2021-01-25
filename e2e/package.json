@@ -1,0 +1,24 @@
+{
+  "name": "cypress-poc",
+  "version": "1.0.0",
+  "description": "Forked from [mtlynch/hello-world-cypress](https://github.com/mtlynch/hello-world-cypress) that allows to run a project and its Cypress end-to-end tests using docker-compose. The initial setup is well described in [\"End-to-End Testing Web Apps: The Painless Way.\"](https://mtlynch.io/painless-web-app-testing/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chrome": "cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/report",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  }
+}
